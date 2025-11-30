@@ -1,0 +1,39 @@
+h1 {
+    color: blue;
+}
+
+.second{
+    color: red;
+}
+
+#third {
+    color: green;
+}
+
+input[type="text"] { color: darkmagenta; width: 400px; }
+
+section h2 { color: orange; }
+
+div > p {
+    color: darkred; font-size: 20px;
+}
+
+div > section h2 {
+    color: darkviolet;
+}
+
+h2 + p {
+    color: greenyellow; background-color: black;
+}
+
+span ~ h3 {
+    color: darkturquoise; font-weight: bold; background-color: gray;
+}
+
+.container h4.highlight {
+ color: blue; background-color: gold;
+}
+
+#unique-container > .unique-heading  {
+    color: deeppink; font-size: 25px;
+}
